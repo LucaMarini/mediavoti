@@ -1,7 +1,5 @@
 <?php
-/*
-* calcolo della media dei voti
-*/
+/* Programma per calcolare la media dei voti */
 $voti = array(7,7,6,6,7,7,8,8,7);
 $limite = count($voti);
 $i=0;
@@ -12,5 +10,5 @@ $somma += $voti[$i];
 $i++;
 }
 $media=$somma/$limite;
-echo "<h2>Media dei voti: " . $media . "</h2>";
+echo "Media dei voti: " . $media;
 ?>
