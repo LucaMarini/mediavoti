@@ -1,8 +1,3 @@
-<html>
-<head>
-<title>Media dei voti</title>
-</head>
-<body>
 <?php
 /*
 * calcolo della media dei voti
@@ -19,5 +14,3 @@ $i++;
 $media=$somma/$limite;
 echo "<h2>Media dei voti: " . $media . "</h2>";
 ?>
-</body>
-</html>
